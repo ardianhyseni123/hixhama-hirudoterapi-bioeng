@@ -1,0 +1,24 @@
+HIXHAMA & HIRUDOTERAPI BIOENG
+
+SI TA HAPNI PROGRAMIN
+1. Hapeni dosjen e programit.
+2. Klikoni dy herë skedarin "Hixhama-Bioeng.html".
+3. Programi hapet në Chrome, Edge ose Firefox. Nuk kërkon instalim.
+
+RUAJTJA E TË DHËNAVE
+- Të dhënat ruhen lokalisht në shfletuesin dhe pajisjen ku punoni.
+- Mos e përdorni mënyrën Incognito/Private.
+- Te menuja "Kopja rezervë", shkarkoni rregullisht një kopje .json.
+- Mos e fshini historinë/datat e shfletuesit pa bërë më parë kopje rezervë.
+
+PDF DHE NJOFTIMET
+- Te "Njoftimet / PDF", zgjidhni pacientin, terapinë dhe kujdesin para/pas.
+- Klikoni "Ruaj / Printo PDF".
+- Në dritaren e printimit zgjidhni "Save as PDF / Ruaj si PDF".
+- Butoni WhatsApp dërgon tekstin e udhëzimit; PDF-ja e ruajtur mund t'i
+  bashkëngjitet pacientit nga WhatsApp Desktop/Web ose telefoni.
+
+KONTAKT: 044 369 264
+
+Shënim sigurie: Programi përmban të dhëna personale/shëndetësore. Përdoreni
+në pajisje me fjalëkalim dhe ruani kopjet rezervë në vend të sigurt.
