@@ -1,0 +1,33 @@
+LOGIN I SIGURT PER HIXHAMA & HIRUDOTERAPI BIOENG
+
+Ky version ka faqe hyrjeje me Firebase Authentication. Fjalekalimi nuk eshte
+brenda kodit te programit.
+
+HAPI 1 - Aktivizo hyrjen me email/fjalekalim
+1. Hape Firebase Console dhe projektin Bioeng (ID: bioeng-45b09).
+2. Majtas hape Security -> Authentication.
+3. Kliko Get started.
+4. Te Sign-in method, zgjidh Email/Password, aktivizo opsionin e pare dhe ruaj.
+
+HAPI 2 - Merr konfigurimin e web app
+1. Settings -> Project settings -> General.
+2. Te Your apps zgjidh ose krijo nje Web app (shenja </>).
+3. Te firebaseConfig kopjo VETEM vlerat: apiKey, messagingSenderId dhe appId.
+4. Hape firebase-config.js ne kete dosje dhe ploteso tre vlerat bosh.
+   Mos vendos kurre fjalekalimin ose Service account JSON ne kete skedar.
+
+HAPI 3 - Krijo llogarine
+1. Authentication -> Users -> Add user.
+2. Vendos emailin e caktuar per Hixhama.
+3. Vendos nje fjalekalim te forte (te pakten 12 karaktere, me shkronja dhe numra).
+4. Ruaj llogarine.
+
+HAPI 4 - Publiko versionin e ri
+Ne Command Prompt, nga kjo dosje, shkruaj:
+firebase deploy --only hosting
+
+PAKETIMI
+Programi ende ruan pacientet, terminet dhe pagesat vetem ne shfletuesin e atij
+kompjuteri. Login mbron hyrjen ne faqe, por nuk e shnderron ruajtjen lokale ne
+database te perbashket. Per ndarje te te dhenave mes kompjutereve duhet nje hap
+tjeter: Firestore me rregulla sigurie.
